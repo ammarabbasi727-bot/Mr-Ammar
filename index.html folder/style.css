@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #ff0000;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url("laboratory-medicine-780x470.png.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.hero-content p {
+    color: #ddd;
+    margin: 20px 0;
+}
+
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+/* ABOUT */
+.about {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* SERVICES */
+.services {
+    padding: 100px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+
+.card {
+    background: rgba(255, 255, 255, 0.974);
+    padding: 35px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    transition: 0.4s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+}
+
+
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: 0.3s;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #00c6ff;
+    box-shadow: 0 0 10px rgba(0,198,255,0.2);
+}
+
+.contact button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg,#00c6ff,#0072ff);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    transform: translateY(-3px);
+}
