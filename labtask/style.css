@@ -1,0 +1,56 @@
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.805);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        border: none;
+        background-color: #244262;
+        color: rgb(171, 54, 54);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #4074aa;
+    };
+
+    #myImage {
+    width: 300px;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Hidden state */
+.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+}
+
+/* Visible state */
+.show {
+    opacity: 1;
+    transform: scale(1);
+}

@@ -1,4 +1,4 @@
-var str="my name si jk"
+var str="my name jk"
 console.log("string",typeof str);
 
 let num=28

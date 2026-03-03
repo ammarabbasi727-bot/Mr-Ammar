@@ -14,4 +14,13 @@ function reset(){
     count = 0;
     document.getElementById("count").innerText = count;
 }
-
+function loadCount() {
+  let saved = localStorage.getItem("count");
+  if (saved !== null) {
+    count = Number(saved);
+  }
+  updateCount();
+}
+function save(){
+    localStorage.setItem("count").count;
+}
