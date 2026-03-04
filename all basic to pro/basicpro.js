@@ -54,7 +54,37 @@
 
 //comparison operators;
 
-let a = 5;// isma dekhna a == a mean true a==b mean false
-let b = 2;
+//let a = 5;// isma dekhna a == a mean true a==b mean false
+//let b = 2;
                //!= ka matlb not mean a = a ya false haai
-console.log("a==b",a==b);
+//console.log("a==b",a==b);
+
+//let a = 5;
+//let b = 2;
+
+//console.log ("5 <=2", a <= b); // yahan pa be value compare hui haai <= <=  <  <  > >  
+
+//logical operators
+
+//let a  = 5;
+//let b = 2;
+    
+   //let cond1 = a > b;
+   //let cond2 =b === 2;///ya sign her true value ko false kerry ghaa ||
+
+   //console.log("cond1 && cond2",cond1 && cond2);
+  
+   //condtional statement
+
+   //let age= 24;
+   
+  //if (age >= 18 ){
+   //onsole.log ("you  can vote");
+  //}
+
+
+
+
+
+  
+ 
